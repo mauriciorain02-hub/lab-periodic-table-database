@@ -1,6 +1,5 @@
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
-
 ELEMENT_INPUT=$1
 
 if [[ -z $ELEMENT_INPUT ]]
